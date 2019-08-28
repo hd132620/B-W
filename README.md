@@ -3,7 +3,9 @@ JavaFX로 구현한 흑과 백 게임입니다.
 
 플레이영상 https://www.youtube.com/embed/wsZrXJgdptk
 
-[![IMAGE ALT TEXT HERE](https://i.ytimg.com/vi/wsZrXJgdptk/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC6PhGZaXEqmd6V-j_CizqqiT487w)](https://www.youtube.com/watch?v=wsZrXJgdptk)
+[![플레이영상](https://i.ytimg.com/vi/wsZrXJgdptk/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC6PhGZaXEqmd6V-j_CizqqiT487w)](https://www.youtube.com/watch?v=wsZrXJgdptk)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wsZrXJgdptk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # 관련자료
 
