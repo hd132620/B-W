@@ -1,5 +1,5 @@
 # B-W
-JavaFX로 구현한 흑과 백 게임입니다.
+JavaFX 0.8로 구현한 흑과 백 게임입니다.
 
 
 [![플레이영상](https://i.ytimg.com/vi/wsZrXJgdptk/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC6PhGZaXEqmd6V-j_CizqqiT487w)](https://www.youtube.com/watch?v=wsZrXJgdptk)
