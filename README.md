@@ -3,7 +3,7 @@ JavaFX로 구현한 흑과 백 게임입니다.
 
 플레이영상 https://www.youtube.com/embed/wsZrXJgdptk
 
-서버 Github 주소 https://github.com/hd132620/B-W-Server
+<< https://www.youtube.com/watch?v=4XpnKHJAok8 >>
 
 # 관련자료
 
