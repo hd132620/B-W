@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="900.0">
+         <image>
+            <Image url="@../../../../picture/background.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="686.0" layoutY="386.0">
+         <image>
+            <Image url="@../../../../picture/user2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0">
+         <image>
+            <Image url="@../../../../picture/user1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemyTile0" fitHeight="103.0" fitWidth="70.0" layoutX="223.0" layoutY="63.0">
+         <image>
+            <Image url="@../../../../picture/black_back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemyTile3" fitHeight="103.0" fitWidth="70.0" layoutX="433.0" layoutY="63.0">
+         <image>
+            <Image url="@../../../../picture/white_back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemyTile2" fitHeight="103.0" fitWidth="70.0" layoutX="363.0" layoutY="63.0">
+         <image>
+            <Image url="@../../../../picture/black_back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemyTile1" fitHeight="103.0" fitWidth="70.0" layoutX="293.0" layoutY="63.0">
+         <image>
+            <Image url="@../../../../picture/white_back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemyTile4" fitHeight="103.0" fitWidth="70.0" layoutX="503.0" layoutY="63.0">
+         <image>
+            <Image url="@../../../../picture/black_back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemyTile5" fitHeight="103.0" fitWidth="70.0" layoutX="573.0" layoutY="63.0">
+         <image>
+            <Image url="@../../../../picture/white_back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemyTile6" fitHeight="103.0" fitWidth="70.0" layoutX="643.0" layoutY="63.0">
+         <image>
+            <Image url="@../../../../picture/black_back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemyTile7" fitHeight="103.0" fitWidth="70.0" layoutX="713.0" layoutY="63.0">
+         <image>
+            <Image url="@../../../../picture/white_back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemyTile8" fitHeight="103.0" fitWidth="70.0" layoutX="783.0" layoutY="63.0">
+         <image>
+            <Image url="@../../../../picture/black_back.png" />
+         </image>
+      </ImageView>
+      <ImageView id="3" fitHeight="103.0" fitWidth="70.0" layoutX="258.0" layoutY="435.0" onMouseClicked="#tileClickAction">
+         <image>
+            <Image url="@../../../../picture/3.png" />
+         </image>
+      </ImageView>
+      <ImageView id="4" fitHeight="103.0" fitWidth="70.0" layoutX="328.0" layoutY="435.0" onMouseClicked="#tileClickAction">
+         <image>
+            <Image url="@../../../../picture/4.png" />
+         </image>
+      </ImageView>
+      <ImageView id="5" fitHeight="103.0" fitWidth="70.0" layoutX="398.0" layoutY="435.0" onMouseClicked="#tileClickAction">
+         <image>
+            <Image url="@../../../../picture/5.png" />
+         </image>
+      </ImageView>
+      <ImageView id="6" fitHeight="103.0" fitWidth="70.0" layoutX="468.0" layoutY="435.0" onMouseClicked="#tileClickAction">
+         <image>
+            <Image url="@../../../../picture/6.png" />
+         </image>
+      </ImageView>
+      <ImageView id="7" fitHeight="103.0" fitWidth="70.0" layoutX="538.0" layoutY="435.0" onMouseClicked="#tileClickAction">
+         <image>
+            <Image url="@../../../../picture/7.png" />
+         </image>
+      </ImageView>
+      <ImageView id="8" fitHeight="103.0" fitWidth="70.0" layoutX="608.0" layoutY="435.0" onMouseClicked="#tileClickAction">
+         <image>
+            <Image url="@../../../../picture/8.png" />
+         </image>
+      </ImageView>
+      <ImageView id="0" fitHeight="103.0" fitWidth="70.0" layoutX="48.0" layoutY="435.0" onMouseClicked="#tileClickAction">
+         <image>
+            <Image url="@../../../../picture/0.png" />
+         </image>
+      </ImageView>
+      <ImageView id="1" fitHeight="103.0" fitWidth="70.0" layoutX="118.0" layoutY="435.0" onMouseClicked="#tileClickAction">
+         <image>
+            <Image url="@../../../../picture/1.png" />
+         </image>
+      </ImageView>
+      <ImageView id="2" fitHeight="103.0" fitWidth="70.0" layoutX="188.0" layoutY="435.0" onMouseClicked="#tileClickAction">
+         <image>
+            <Image url="@../../../../picture/2.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="enemyName" layoutX="47.0" layoutY="214.0" prefHeight="28.0" prefWidth="142.0" style="-fx-alignment: center;" text="Player 2" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="RixVita M" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="myName" layoutX="713.0" layoutY="355.0" prefHeight="28.0" prefWidth="142.0" style="-fx-alignment: center;" text="Player 1" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="RixVita M" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="firstlast1" fitHeight="98.0" fitWidth="98.0" layoutX="737.0" layoutY="401.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="firstlast2" fitHeight="98.0" fitWidth="98.0" layoutX="69.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="68.0" fitWidth="53.0" layoutX="14.0" layoutY="47.0">
+         <image>
+            <Image url="@../../../../picture/winnerpoint.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="53.0" layoutX="835.0" layoutY="416.0">
+         <image>
+            <Image url="@../../../../picture/winnerpoint.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="enemyPoint" layoutX="31.0" layoutY="74.0" text="1" textFill="#fff200">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="myPoint" layoutX="852.0" layoutY="441.0" text="1" textFill="#fff200">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="enemyOrder" fitHeight="42.0" fitWidth="42.0" layoutX="146.0" layoutY="14.0">
+         <image>
+            <Image url="@../../../../picture/first.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myOrder" fitHeight="42.0" fitWidth="42.0" layoutX="716.0" layoutY="386.0">
+         <image>
+            <Image url="@../../../../picture/first.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="resultimg" fitHeight="74.0" fitWidth="200.0" layoutX="350.0" layoutY="263.0">
+         <image>
+            <Image url="@../../../../picture/draw.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="48.0" layoutY="282.0">
+         <image>
+            <Image url="@../../../../picture/roundnum.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="74.0" layoutY="297.0" text="Round">
+         <font>
+            <Font name="Tahoma Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="roundNum" layoutX="87.0" layoutY="320.0" text="1">
+         <font>
+            <Font name="NanumMyeongjoExtraBold" size="35.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="ready" fitHeight="89.0" fitWidth="316.0" layoutX="292.0" layoutY="256.0" onMouseClicked="#readyClickAction" onMouseEntered="#readyDragAction" onMouseExited="#readyReleaseAction">
+         <image>
+            <Image url="@../../../../picture/ready.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dimigo.bw.MainController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="900.0">
+         <image>
+            <Image url="@../../../../picture/background.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="163.0" fitWidth="329.0" layoutX="286.0" layoutY="31.0">
+         <image>
+            <Image url="@../../../../picture/bw.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="251.0" layoutY="232.0" text="IP : " textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="176.0" layoutY="308.0" text="PORT : " textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="48.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ip" layoutX="358.0" layoutY="251.0" prefHeight="38.0" prefWidth="343.0" />
+      <Button layoutX="272.0" layoutY="508.0" mnemonicParsing="false" onAction="#loginAction" prefHeight="53.0" prefWidth="119.0" text="Login">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="514.0" layoutY="508.0" mnemonicParsing="false" onAction="#handleCloseAction" prefHeight="53.0" prefWidth="119.0" text="Close">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="157.0" layoutY="386.0" text="NAME : " textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="48.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nametext" layoutX="358.0" layoutY="403.0" prefHeight="38.0" prefWidth="343.0" promptText="닉네임은 10글자 이하로 입력해주세요." />
+      <TextField fx:id="port" layoutX="357.0" layoutY="325.0" prefHeight="38.0" prefWidth="343.0" />
+      <Label layoutX="654.0" layoutY="571.0" text="Developed By HD13이은찬, HD13 이영석" textFill="#6ce583" />
+      <Label fx:id="result" layoutX="266.0" layoutY="462.0" prefHeight="31.0" prefWidth="370.0" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
