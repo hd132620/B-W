@@ -3,11 +3,9 @@ JavaFX로 구현한 흑과 백 게임입니다.
 
 # 관련자료
 
-플레이영상
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wsZrXJgdptk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+플레이영상 https://www.youtube.com/embed/wsZrXJgdptk
 
-서버 Github 주소
-https://github.com/hd132620/B-W-Server
+서버 Github 주소 https://github.com/hd132620/B-W-Server
 
 ![역할배분](https://user-images.githubusercontent.com/11497518/63837053-b38aea80-c9b5-11e9-818c-7c39d7996c5c.png)
 ![기능 설계도](https://user-images.githubusercontent.com/11497518/63837036-ad950980-c9b5-11e9-974a-d9bbc7d9c2bb.png)
